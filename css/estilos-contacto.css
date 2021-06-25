@@ -1,0 +1,64 @@
+/*inicio contacto*/
+  body{
+font-family: monospace;  
+
+background-size: 100vw 100vh;
+/*vw view por widh view por heigh*/
+background-attachment:fixed; 
+margin:0; 
+ } form{
+  width:450px;
+  margin:auto;
+  background:rgba(0,0,0,0.7);
+  padding:10px 20px;
+  box-sizing:border-box;
+  margin-top:20px;
+  border-radius:7px;
+  
+  } h2 {
+    font-family:serif;
+    color:#000;
+    text-align:center;
+    margin:0; 
+    font-size:30px;
+    margin-bottom:20px;
+  }input,textarea{
+    outline:rgba(0,0,0,0);
+    border-radius:8px;  
+    width:100%;
+    margin-bottom:20px;
+    padding: 7px;
+    box-sizing:border-box;
+    font-size:17px;
+-webkit-border-radius: 7px;
+-moz-border-radius: 7px;
+border-radius: 7px;
+
+  }textarea{
+min-height:100px;
+max-height:200px;
+max-width:100%;
+-webkit-border-radius:10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+
+  }#boton_enviar{
+    background:#74e6eb;
+    color:#000; 
+    padding:20px;
+  
+  }input:focus{
+    border-color:#00FCFF; 
+  }textarea:focus{
+
+    border-color:#00FCFF; 
+    }
+
+    #boton_enviar:hover{
+    background:#0CB0BA;
+    color:#000; 
+    padding:20px;
+    cursor:pointer; 
+    }
+/*fin contacto */
+

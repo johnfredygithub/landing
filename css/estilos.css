@@ -1,0 +1,475 @@
+
+
+* {
+  padding:0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size:19px;
+  background: #F1F1F1;
+  font-family: 'Roboto', sans-serif;
+  -webkit-transition: .9s ease all;
+  transition: .9s ease all;
+/*background-image: 
+url("http://elbebermellama.ml/modules/homeslider/images/9b2147e753c444813fd9a22fc21f60670f47878d_58910138-textura-de-fondo-oscuro-en-blanco-para-el-diseño-bordes-oscuros.jpg");
+*/
+
+}
+
+body h2{
+    color:#000;
+}
+.text-muted {
+    color:#000;
+}
+
+body.dark {
+  background: black;
+}
+
+.contenedor {
+  max-width: 1000px;
+  width: 90%;
+  margin: auto;
+  padding: 50px 0;
+}
+
+nav {
+  background: #FEFEFE;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 20px;
+  border-radius: 5px;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+  -webkit-box-shadow: 10px 10px 20px rgba(170, 170, 170, 0.16);
+          box-shadow: 10px 10px 20px rgba(170, 170, 170, 0.16);
+}
+
+/**cuerpo oscuro**/
+body.dark nav  {
+  background:black;
+}body nav #menu li a{
+  padding: 2px 13px 7px 7px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color:black;
+    -webkit-box-shadow: 0 none;
+    box-shadow: 0 none;
+    -webkit-transition: all 0.3s; 
+    -moz-transition: all 0.3s; 
+    -o-transition: all 0.3s; 
+    transition: all 0.3s; 
+}
+
+body.dark nav #menu li a{
+
+  padding: 2px 13px 7px 7px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    -webkit-box-shadow: 0 none;
+    box-shadow: 0 none;
+    -webkit-transition: all 0.3s; 
+    -moz-transition: all 0.3s; 
+    -o-transition: all 0.3s; 
+    transition: all 0.3s; 
+
+}
+
+/*boton de contacto*/
+body nav #menu li button{
+  padding: 0px 80px 7px 7px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color:black;
+    -webkit-box-shadow: 0 none;
+    box-shadow: 0 none;
+    -webkit-transition: all 0.3s; 
+    -moz-transition: all 0.3s; 
+    -o-transition: all 0.3s; 
+    transition: all 0.3s; 
+}
+
+/*CAMBIO DE COLOR LETRAS*/
+body.dark h2 {
+    color: #000;
+}
+
+
+body.dark h3 span{
+    color: #fff;
+}
+body.dark h4{
+
+    color: #fff;
+}
+body.dark p{
+font-size:19px;
+    color: #fff;
+    background: black;
+}
+body.dark strong{
+    color: #fff;
+    background: black;
+}
+
+body.dark .row .roles {
+    background: black;
+}body.dark  .team-box {
+    background:black;
+    padding-bottom: 20px;
+}
+
+
+
+
+body.dark nav #menu li button{
+  padding: 0px 80px 7px 7px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    -webkit-box-shadow: 0 none;
+    box-shadow: 0 none;
+    -webkit-transition: all 0.3s; 
+    -moz-transition: all 0.3s; 
+    -o-transition: all 0.3s; 
+    transition: all 0.3s; 
+}
+
+body.dark nav li a:hover {
+  color:orange;
+}
+
+nav .logotipo {
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+.navbar .navbar-brand {
+    font-weight: 900;
+    color: #fff;
+    margin: 15px 350px 0;
+    font-size: 28px;
+}
+
+
+nav .enlaces {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .enlaces > li > a {
+  margin-right:40px;
+}
+
+nav .enlaces li a:hover {
+  color: #707070;
+}
+
+.switch {
+  background: darkcyan;
+  border-radius:1000px;
+  border:none;
+  position:relative;
+  cursor: pointer;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  outline:none;
+}
+
+.switch::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background: white;
+  top: 0;
+  left: 0;
+  right: unset;
+  border-radius: 100px;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+  -webkit-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.switch.active {
+  background: orange;
+  color: black;
+}
+
+.switch.active::after {
+  right: 0;
+  left: unset;
+}
+
+.switch span {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  background: none;
+  color: black;
+}
+
+.grid {
+  display: -ms-grid;
+  display:flex;
+  grid-gap: 40px 20px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  padding: 40px 0;
+}
+
+.grid .card {
+  background: #FEFEFE;
+  padding: 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 10px 10px 20px rgba(170, 170, 170, 0.16);
+          box-shadow: 10px 10px 20px rgba(170, 170, 170, 0.16);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: relative;
+  min-height: 195px;
+  margin-top: 50px;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+}
+
+body.dark .grid .card {
+  background: #C8C8C8;
+  -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+          box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+}
+
+.grid .card img {
+  vertical-align: top;
+  border-radius: 7px;
+  position: absolute;
+  top: -50px;
+  width: calc(100% - 40px);
+  max-height: 165px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.grid .card .botones {
+  width: 100%;
+  margin-top: 20px;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 20px;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.grid .card .botones .boton {
+  padding: 10px;
+  color: #fff;
+  width: 100%;
+  display: block;
+  background: #111111;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+}
+
+.grid .card .botones .boton.primario {
+  background: #3E60E9;
+}
+
+.grid .card .botones .boton.primario:hover {
+  background: #254BE6;
+}
+
+.grid .card .botones .boton.secundario {
+  background: #C8C8C8;
+}
+
+.grid .card .botones .boton.secundario:hover {
+  background: #ACABAB;
+}
+/*# sourceMappingURL=estilos.css.map */
+
+/*# iconos de servicios  */
+
+#icono-anim{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
+
+}#icono-anim li{
+  list-style: none;
+}#icono-anim li a{
+   display:block;
+   position:relative;
+   width:100px;
+   height:100px;
+   line-height:100px;
+   font-size: 3em;
+   margin-bottom: 20px;
+   border-radius: 50%;
+   text-align: center;
+   color: white ;
+   background:black;
+   transition: .5s;
+   border: 2px solid white;
+   overflow:hidden;
+}#icono-anim li a:hover{
+  transform:scale(1.2);
+}
+/*pseudo-elemt before*/
+#icono-anim li a::before{
+  content:"";
+  position: absolute;
+  width: 100%;
+  height:100%;
+  z-index:-1;
+  transform: scale(1);
+  top:0;
+  left:0;
+  transition:.5s;
+
+
+}#icono-anim li a:hover::before{
+  transform:scale(0);
+}
+
+
+/*les ponemos el background segun la posicion nth-child(#) */
+#icono-anim li:nth-child(1) a,
+#icono-anim li:nth-child(1) a::before{
+  background:#3b5999;
+}
+
+#icono-anim li:nth-child(2) a,
+#icono-anim li:nth-child(2) a::before{
+  background:#3b5999;
+}
+
+#icono-anim li:nth-child(3) a,
+#icono-anim li:nth-child(3) a::before{
+  background:#3b5999;
+}
+
+#icono-anim li:nth-child(4) a,
+#icono-anim li:nth-child(4) a::before{
+  background:#3b5999;
+}
+
+/*hover effect */
+
+#icono-anim li:nth-child(1) a:hover{
+  background:#fff;
+  border: 2px dotted blue;
+  color:#3b5999;
+
+}
+
+#icono-anim li:nth-child(2) a:hover{
+  background:#fff;
+  border: 2px dashed blue;
+  color:#3b5999;
+}
+
+#icono-anim li:nth-child(3) a:hover{
+  background:#fff;
+  border: 2px dashed blue;
+  color:#3b5999;
+}
+
+#icono-anim li:nth-child(4) a:hover{
+  background:#fff;
+  border: 2px double blue;
+  color:#3b5999;
+}
+
+
+/*=========iniv¿cioncontacto formulario======*/
+
+/* ============== contact no esta en uso ==================== */
+.contact-form form{
+  width: 450px;
+  margin: auto;
+  background:rgba(0,0,0,0.4);
+  padding: 10px 20px;
+  /*bordes hacia adentro*/
+  box-sizing: border-box;
+  margin-top:25px;
+  border-radius:7px;
+}h2{
+  color:#fff;
+  text-align:center;
+  margin:0;
+  font-size:30px; 
+  margin-bottom:20px;
+}input,textarea{
+width: 100%;
+margin-bottom:20px;
+padding:7px;
+box-sizing:border-box;
+font-size: 17px;
+border: none;
+border-radius:7px;
+}textarea{
+min-height:100px;
+max-height:200px;
+max-width:100%;
+}#boton_enviar{
+background:#34638E;
+color:#fff;
+padding:20px;
+}#boton_enviar:hover{
+  cursor:pointer;
+background:#18BFC5; 
+color:#fff;
+padding:20px;
+border:solid;
+border-color:#525050; 
+}textarea:focus{
+padding:20px;
+border:solid;
+border-color:#00FF30; }
+
+#textocontact{
+  color:#020202;
+}
+/*========= fin contacto formulario======*/
+
+
+
+
+
+
+
+
+

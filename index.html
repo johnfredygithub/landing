@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>REPARACION DE PC</title>
+
+   <!-- AQUI VA EL FAVICON-->
+  <link rel="shorcut icon" type="image/x-icon" href="./img/HERRAMIENTAS.ico">
+  <!-- ES EL ICONO QUE SE INSTALA EN EL DISPOSITIVO -->
+  <link rel="apple-touch-icon" href="./ProgramadorFitness.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Servicio a domicilio de mantenimiento de equipos de computo " />
+  <!-- COLOR CON EL QUE EL NAVEGADOR SE VA A COLOREAR -->
+  <meta name="theme-color" content="#F0DB4F">
+  <!-- INFORMA Q EL APLICATIVO ES AMISTOSO CON MOVILES  -->
+  <meta name="MobileOptimized" content="width">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <!-- IMAGEN DEL INICIO-->
+  <link rel="apple-touch-startup-image" href="./ProgramadorFitness.png">
+  <!-- LLAMAMOS EL MANIFES JSON  -->
+  <link rel="manifest" href="./manifest.json">
+    <meta name="author" content="John Fredy Enriquez Muñoz"/>
+  <meta name="keywords"content="REPARACION DE PC|SOPORTE TECNICO|SERVICIO A DOMICILIO BOGOTA" charset="utf-8">
+  <!-- styles -->
+
+  <link rel="stylesheet" href="assets/css/fancybox/jquery.fancybox.css">
+  <link href="assets/css/bootstrap.css" rel="stylesheet" />
+  <link href="assets/css/bootstrap-theme.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/slippry.css">
+  <link href="assets/css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/color/default.css">
+  <script src="assets/js/modernizr.custom.js"></script>
+
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet"> 
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/estilos.css">
+
+  <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="f1be99bb-ebc1-4479-802f-21cfe3105dd6";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+  
+<script src="assets/js/jquery.min.js"></script>
+<script src="js/sweetalert.min.js"></script>
+<link rel="stylesheet" type="text/css" href="js/sweetalert.css">
+
+
+
+
+</head>
+
+
+
+<script type="text/javascript">
+     document.addEventListener('contextmenu',e=> {
+             
+  
+
+  swal("Aviso", "El botón derecho de este sitio se encuentra deshabilitado, al igual que el plagio del contenido");
+
+
+e.preventDefault();
+        }
+    );
+    </script>
+
+
+<!--<script type="text/javascript">
+$(document).ready(function () {
+    //Disable full page
+    $("body").on("contextmenu",function(e){
+        return false;
+        
+  });    
+});
+</script>-->
+
+
+
+
+<script type="text/javascript">
+$(document).ready(function () {
+    //Disable full page
+    $('body').bind('cut copy paste', function (e) {
+        e.preventDefault();
+    });
+    
+});
+</script>
+
+
+<body>
+ <!-- inicio header  -->
+<header>
+   
+                 
+    <div id="navigation" class="navbar navbar-inverse navbar-fixed-top default" role="navigation">
+
+                
+      <div class="container">
+ <!-- MENU  -->
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+                  
+        </div>
+
+        <div class="navigation">
+          
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <nav style="float:right; ">
+              <ul class="nav navbar-nav navbar-right" id="menu">
+                <li><a href="#intro" style="margin-right:40px">Inicio</a></li>
+                <li><a href="#servicios"style="margin-right:40px">Servicio</a></li>
+                <li><a href="#tecnologia" style="margin-right:40px">Tecnología</a></li>
+             <!--  <li><button type="button" onclick="window.location.href='./views/contacto'" class="btn btn-link">Contacto</button></li> -->
+              </ul>
+
+<div class="enlaces">
+				
+               <button class="switch" id="switch">
+					
+					<span ><i class="fas fa-sun"></i></span>
+					<span><i class="fas fa-moon"></i></span>
+             
+				
+				</button>
+
+			</div>
+            </nav>
+
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+
+      </div>
+    </div>
+
+
+
+  </header>
+   <!-- fin header  -->
+
+
+ <!-- SLIDER O BANNER  -->
+<!-- section intro -->
+  <section id="intro">
+    
+    <ul id="slippry-slider">
+      
+      <li>
+        <a href="#slide1"><img loading="lazy" src="assets/img/slide/1.jpg" alt="Bienvenidos"></a>
+      </li>
+      <li>
+        <a href="#slide2"><img loading="lazy" src="assets/img/slide/2.jpg"  alt="Servicio Tecnico a Domicilio"></a>
+      </li>
+      <li>
+        <a href="#slide3"><img loading="lazy" src="assets/img/slide/3.jpg" alt="GRACIAS POR VISITARNOS"></a>
+      </li>
+       
+    </ul>
+
+  </section>
+  <!-- end intro -->
+  <!-- SLIDER O BANNER  -->
+
+<!-- Section Servicios -->
+  <section id="servicios" class="grid">
+    <div class="container">
+   <!-- TITULO-------------------->
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="heading">
+            <h3><span>Servicios</span></h3>
+          </div>
+          </div>
+      </div>  
+    <!-- ------------------------- -->     
+      <div class="row">        
+        <div class="col-md-3">          
+          <div class="team-box">                         
+           <div class="roles">
+             <!-- INICIO ICONO  -->
+             <ul id="icono-anim" >
+               <li>
+                 <a >
+                  <i class="fas fa-tools"></i>
+                 </a>
+               </li>
+             </ul>             
+              <h5><strong>Mantenimiento y reparación de computadoras.</strong></h5>
+              <!-- FIN ICONO  -->
+                  </div><!--FIN ROLES -->
+<p class="parrafos">
+• Formateo e Instalación de Sistema Operativo, Antivirus
+<br>
+• Paquetería de ofimática etc.
+<br>
+Instalación de drivers 
+<br>
+• Limpieza del equipo.
+<br>
+• Instalación de hardware y Software
+<br>
+• Respaldo de Información (backups)
+<br>
+• Diagnóstico de fallas
+</p>   
+            
+            </div>
+        </div><!-- SLIDER O BANNER  -->
+        <div class="col-md-3">
+          <div class="team-box">
+            <div class="roles">
+              <ul id="icono-anim" >
+               <li>
+                 <a >
+                   <i class="fas fa-laptop-code"></i>
+                 </a>
+               </li>
+             </ul>             
+
+              <h5><strong>MANTENIMIENTO PREVENTIVO</strong></h5>
+              </div>
+          
+<p> Si su equipo está funcionando adecuadamente, y desea darle solo un mantenimiento preventivo para seguirlo manteniendo así y garantizar la seguridad de su equipo y la información que almacena,incluye:
+
+•  Optimización de discos duros.
+<br>
+•  Optimización del Sistema Operativo.
+<br>
+•  Optimización del sistema de arranque.
+<br>
+•  Aplicación de pasta térmica en procesador.
+<br>
+•  Diagnóstico de fallas.
+<br>
+•  Limpieza exterior de PC o Laptop, teclado, monitor y mouse.
+<br>
+•  Limpieza Interior del Equipo 
+              </p>
+</div>
+        </div>
+        <div class="col-md-3">
+          <div class="team-box">
+            
+            <div class="roles">
+              <!--icono-->
+              <ul id="icono-anim" >
+               <li>
+                 <a >
+                   <i class="fas fa-file-code"></i>
+                 </a>
+               </li>
+             </ul>             
+
+              <h5><strong>Desarrollo de sistemas de información y sitios web </strong></h5>
+                                         
+       </div>        
+        <p>                             
+Desarrollo de sitios web con responsive design, Optimizados
+y aplicando técnicas de usabilidad.
+<br>
+Desarrolló de sistemas de información, no importa que tipo de negocio tenga no dude en consultarnos
+              </p>
+                    
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="team-box">
+            
+            <div class="roles">
+              <ul id="icono-anim" >
+               <li>
+                 <a>
+                   <i class="fas fa-microchip"></i>
+                 </a>
+               </li>
+             </ul>             
+
+              <h5><strong>INSTALACION DE HARDWARE Y SOFTWARE</strong></h5>
+              </div>
+              <!--<img src="assets/img/dummies/fghjk.jpg" alt="" class="img-responsive" />-->
+              <p>
+              Ofrecemos soluciones en cuanto a la instalación de Hardware o software, donde puede tratarse de actualizaciones o cambios en cuanto a disco duro o sólido, memoria RAM, reemplazo de fuentes de poder, tarjetas de red, entre otros no dude en consultarnos.  
+              </p>           
+            
+          </div>
+        </div>
+
+  </section>
+  <!-- end section servicios -->
+  
+
+<!-- Section content -->
+  <section id="tecnologia" class="container banner mb-2 pl-5 pr-5">
+             <div class="heading">
+            <br>
+            <h3><span>Tecnología</span></h3>
+          </div>
+        <!-- Inicio Row -->
+      <div class="row pb-3  align-items-center">
+        <!-- Inicio Col -->
+        <div class="col-sm-6 ">
+          
+          <p class="parrafos">Recursos tecnológicos que manejamos: manejamos Sistemas operativos tipo Windows y Linux, con software utilitarios, software de oficina, antivirus, etc. Instalación de hardware, software portable e instalable, Contamos con conocimientos sobre desarrollo web en php, javascript,html,css,frameworks etc. Con conocimientos en manejo de SGBD como (mysql,sqlserver) permitiendo brindar servicio de calidad e integrando tecnologías actuales que garanticen sistemas escalables y multiplataforma, Garantizando así la satisfacción de nuestros clientes. Y usando software certificado y equipos de calidad  para la reparación o mantenimiento de computadores brindando así un excelente servicio a domicilio, no dude en consultarnos.</p>
+        </div>
+        <!-- Fin Col -->
+<br>
+        <!-- Inicio Col -->
+        <div class="col-sm-6">
+          <img loading="lazy" src="assets/img/1.jpg" class="img-responsive">
+        </div>
+        <!-- Fin Col -->
+
+      </div>
+      <!-- Fin Row -->
+
+      <!-- Section content -->
+  <section id="tecnologia" class="container banner mb-2 pl-5 pr-5">
+    
+
+          <div class="heading">
+            <h3><span>Personal</span></h3>
+          </div>
+
+        <!-- Inicio Row -->
+      <div class="row pb-3  align-items-center">
+        <!-- Inicio Col -->
+        <div class="col-sm-6 ">
+          <p class="parrafos">Contamos con personal calificado y certificado que puede diagnosticar y solucionar cualquier falla. atención al cliente en nuestro whatsapp 3045720744 donde se brindará la información necesaria y se coordinarán los horarios de las visitas técnicas.</p>
+        </div>
+               <!-- Inicio Col -->
+        <div class="col-sm-6">
+          <img loading="lazy" src="assets/img/2.jpg" class="img-responsive">
+        </div>
+        <!-- Fin Col -->
+        <!-- Fin Col --><br>
+       
+      </div>
+      <!-- Fin Row -->
+</section>
+</section>
+	<script src="js/main.js"></script>
+	<footer>
+    <div class="verybottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="aligncenter">
+              <ul class="social-network social-circle">
+                
+                <li><a href="https://www.facebook.com/jhonfredy.enriquezmunoz" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+
+               <!--  <li><a href="./views/contacto.php" class="icoGoogle" title="GMAIL"><i class="fa fa-envelope"></i></a></li> -->
+                <li><a href="https://wa.me/573045720744" class="iconwhatsapp" title="whatsapp"><i class="fab fa-whatsapp"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="aligncenter">
+              <h9>
+                &copy;Copyright-Todos los derechos reservados 
+              </h9>
+              <div class="credits">
+             
+                <a href="https://wa.me/573045720744">ADSI</a> by <a href="https://wa.me/573045720744">JOHN FREDY ENRIQUEZ MUÑOZ                   
+                </a>
+                <br>
+                WHATSAPP:3045720744
+                <br>
+                <a href="https://wa.me/573045720744" style="margin-right:40px ">Contacto</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  
+  <!-- javascript -->
+  
+  <script src="assets/js/jquery-1.9.1.min.js"></script>
+  <script src="assets/js/jquery.easing.js"></script>
+  <script src="assets/js/classie.js"></script>
+  <script src="assets/js/bootstrap.js"></script>
+  <script src="assets/js/slippry.min.js"></script>
+  <script src="assets/js/nagging-menu.js"></script>
+  <script src="assets/js/jquery.nav.js"></script>
+  <script src="assets/js/jquery.scrollTo.js"></script>
+  <script src="assets/js/jquery.fancybox.pack.js"></script>
+  <script src="assets/js/jquery.fancybox-media.js"></script>
+  <script src="assets/js/masonry.pkgd.min.js"></script>
+  <script src="assets/js/imagesloaded.js"></script>
+  <script src="assets/js/jquery.nicescroll.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
+  <script src="assets/js/AnimOnScroll.js"></script>
+  <script>
+    new AnimOnScroll(document.getElementById('grid'), {
+      minDuration: 0.4,
+      maxDuration: 0.7,
+      viewportFactor: 0.2
+    });
+  </script>
+  <script>
+    $(document).ready(function() {
+      $('#slippry-slider').slippry(
+        defaults = {
+          transition: 'vertical',
+          useCSS: true,
+          speed: 5000,
+          pause: 3000,
+          initSingle: false,
+          auto: true,
+          preload: 'visible',
+          pager: false,
+        }
+
+      )
+    });
+  </script>
+
+  <script src="assets/js/custom.js"></script>
+  <script src="contactform/contactform.js"></script>
+
+
+  <script src="./script.js"></script>
+
+</body>
+  
+  <a href="#" class="scrollup"><i class="fa fa-angle-up fa-2x"></i></a>
+  
+
+
+</html>
